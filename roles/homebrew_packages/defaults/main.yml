@@ -1,0 +1,20 @@
+homebrew_packages:
+  - { name: composer }
+  - { name: git }
+  - { name: git-lfs }
+  - { name: ghq }
+  - { name: tig }
+  - { name: hub }
+  - { name: peco }
+  - { name: sqlite }
+  - { name: mysql }
+  - { name: tmux }
+  - { name: nkf }
+  - { name: mackup }
+  - { name: wget }
+  - { name: curl }
+  - { name: vim }
+  - { name: go }
+  - { name: npm }
+  - { name: php }
+  - { name: python }

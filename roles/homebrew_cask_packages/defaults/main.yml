@@ -1,0 +1,16 @@
+homebrew_cask_packages:
+  - { name: atom }
+  - { name: sublime-text}
+  - { name: google-chrome}
+  - { name: firefox}
+  - { name: karabiner-elements}
+  - { name: android-studio}
+  - { name: docker}
+  - { name: sequel-pro}
+  - { name: dropbox }
+  - { name: skitch }
+  - { name: clipy }
+  - { name: the-unarchiver }
+  - { name: vagrant }
+  - { name: iterm2 }
+  - { name: java }
