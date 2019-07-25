@@ -23,4 +23,4 @@
   when: current_shell.stdout != "/usr/local/bin/zsh"
 
 - name: dotfiles install
-  shell: ~/dotfiles/instal.sh
+  shell: ~/dotfiles/install.sh
