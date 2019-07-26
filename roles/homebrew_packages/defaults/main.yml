@@ -18,3 +18,5 @@ homebrew_packages:
   - { name: npm }
   - { name: php }
   - { name: python }
+  - { name: the_silver_searcher }
+  - { name: ripgrep }
