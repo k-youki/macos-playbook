@@ -1,5 +1,5 @@
 - name: copy dotfiles
-  copy: src=dotfiles/ dest=~/
+  copy: src=dotfiles dest=~/
 
 - name: check /etc/shells
   shell: cat /etc/shells | grep /usr/local/bin/zsh | wc -l | tr -d ' '
@@ -8,7 +8,7 @@
   check_mode: no
 
 - name: add zsh to /etc/shells
-  shell: echo "/usr/local/bin/zsh\n" >> /etc/shells
+  shell: echo "/bin/zsh\n" >> /etc/shells
   when: zsh_exist.stdout == '0'
   become: yes
 
@@ -19,8 +19,8 @@
   check_mode: no
 
 - name: change login shell to zsh
-  shell: chsh -s /usr/local/bin/zsh
-  when: current_shell.stdout != "/usr/local/bin/zsh"
+  shell: chsh -s /bin/zsh
+  when: current_shell.stdout != "/bin/zsh"
 
 - name: dotfiles install
   shell: ~/dotfiles/install.sh
