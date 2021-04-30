@@ -1,5 +1,14 @@
-install brew
-install ansible
-install git
+## Install HomeBrew
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
-ansible-playbook -vvv macos.yml -K
+## Install Ansible
+`brew install ansible`
+
+## Install git
+`brew install git`
+
+## Clone 
+`git@github.com:k-youki/macos-playbook.git`
+
+## Setup
+`ansible-playbook -vvvv macos.yml -K`
