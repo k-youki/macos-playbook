@@ -18,4 +18,5 @@
 `ansible-playbook -vvvv macos.yml -K`
 
 ## mackup restore
+- Login Dropbox
 `mackup restore`
