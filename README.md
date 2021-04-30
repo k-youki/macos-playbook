@@ -8,7 +8,7 @@
 `brew install git`
 
 ## Clone 
-git clone `git@github.com:k-youki/macos-playbook.git`
+`git clone git@github.com:k-youki/macos-playbook.git`
 
 ## Setup
 `ansible-playbook -vvvv macos.yml -K`
