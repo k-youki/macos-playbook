@@ -20,3 +20,4 @@ homebrew_packages:
   - { name: python }
   - { name: the_silver_searcher }
   - { name: ripgrep }
+  - { name: cask }
