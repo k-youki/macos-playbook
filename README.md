@@ -1,3 +1,7 @@
+## env Setup
+`xcode-select --install`
+`ssh-keygen -t rsa`
+
 ## Install HomeBrew
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
