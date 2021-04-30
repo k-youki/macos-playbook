@@ -1,0 +1,5 @@
+install brew
+install ansible
+install git
+
+ansible-playbook -vvv macos.yml -K

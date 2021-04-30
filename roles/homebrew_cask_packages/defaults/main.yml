@@ -14,3 +14,8 @@ homebrew_cask_packages:
   - { name: vagrant }
   - { name: iterm2 }
   - { name: java }
+  - { name: graphviz }
+  - { name: xmind }
+  - { name: font-ricty-diminished }
+  - { name: slack }
+  - { name: unity }
