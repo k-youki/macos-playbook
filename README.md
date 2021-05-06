@@ -1,5 +1,6 @@
 ## env Setup
 `xcode-select --install`
+
 `ssh-keygen -t rsa`
 
 ## Install HomeBrew
@@ -13,6 +14,7 @@
 
 ## Clone 
 `git clone git@github.com:k-youki/macos-playbook.git`
+
 `git submodule update --init`
 
 ## chmod dotfiles/install.sh
