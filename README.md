@@ -13,6 +13,10 @@
 
 ## Clone 
 `git clone git@github.com:k-youki/macos-playbook.git`
+`git submodule update --init`
+
+## chmod dotfiles/install.sh
+`chmod +x install.sh`
 
 ## ansible Setup
 `ansible-playbook -vvvv macos.yml -K`
