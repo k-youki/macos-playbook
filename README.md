@@ -29,3 +29,7 @@
 - Login Dropbox
 
 `mackup restore`
+
+## Setting iTerm
+- Change font
+- <img width="356" alt="スクリーンショット 2024-02-13 17 20 08" src="https://github.com/k-youki/macos-playbook/assets/10322951/c83b403c-77aa-48a8-b30d-bf5396790bb1">
